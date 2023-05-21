@@ -89,7 +89,7 @@ class filteredReport:
         # region StartDate
         # -------<< Start Date Label >> :
         filterStartDateLabel = Label(filteredReportFrame, text='Start Date:', fg='Indigo', bg='#F3E5F5',
-                                     font=('Calibri', 12, 'bold'))
+                                     font=('Calibri', 10, 'bold'))
         filterStartDateLabel.grid(row=2, column=0, padx=2, pady=5, sticky='w')
         # -------<< Start Date Entry >> :
         startDate = StringVar()
@@ -101,7 +101,7 @@ class filteredReport:
         # region EndDate
         # -------<< End Date Label >> :
         filterEndDateLabel = Label(filteredReportFrame, text='End Date:', fg='Indigo', bg='#F3E5F5',
-                                   font=('Calibri', 12, 'bold'))
+                                   font=('Calibri', 10, 'bold'))
         filterEndDateLabel.grid(row=2, column=2, padx=2, pady=5, sticky='w')
         # -------<< End Date Entry >> :
         endDate = StringVar()
@@ -113,7 +113,7 @@ class filteredReport:
         # region Type
         # -------<< Type Label >> :
         filterTypeLabel = Label(filteredReportFrame, text='Type:', fg='Indigo', bg='#F3E5F5',
-                                     font=('Calibri', 12, 'bold'))
+                                     font=('Calibri', 10, 'bold'))
         filterTypeLabel.grid(row=3, column=0, padx=10, pady=5, sticky='w')
         # -------<< Type Wallet CheckBox >> :
         TypeW = IntVar(value=1)
@@ -135,7 +135,7 @@ class filteredReport:
         # region MinPrice
         # -------<< Min Price Label >> :
         filterMinPriceLabel = Label(filteredReportFrame, text='Min Price:', fg='Indigo', bg='#F3E5F5',
-                                    font=('Calibri', 12, 'bold'))
+                                    font=('Calibri', 10, 'bold'))
         filterMinPriceLabel.grid(row=4, column=0, padx=2, pady=5, sticky='w')
         # -------<< Min Price Entry >> :
         minPrice = StringVar()
@@ -147,7 +147,7 @@ class filteredReport:
         # region MaxPrice
         # -------<< Max Price Label >> :
         filterMaxPriceLabel = Label(filteredReportFrame, text='Max Price:', fg='Indigo', bg='#F3E5F5',
-                                    font=('Calibri', 12, 'bold'))
+                                    font=('Calibri', 10, 'bold'))
         filterMaxPriceLabel.grid(row=4, column=2, padx=2, pady=5, sticky='w')
         # -------<< Max Price Entry >> :
         maxPrice = StringVar()
@@ -159,7 +159,7 @@ class filteredReport:
         # region Name
         # -------<< Name Label >> :
         filterNameLabel = Label(filteredReportFrame, text='Name:', fg='Indigo', bg='#F3E5F5',
-                                font=('Calibri', 12, 'bold'))
+                                font=('Calibri', 10, 'bold'))
         filterNameLabel.grid(row=5, column=0, padx=2, pady=5, sticky='w')
         # -------<< Name Entry >> :
         name = StringVar()

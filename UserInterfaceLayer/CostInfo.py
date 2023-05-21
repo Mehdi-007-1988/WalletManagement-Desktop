@@ -54,7 +54,7 @@ class costItems:
 
         # region CostItem
         # -------<< Cost Item Label >> :
-        lblCostItem = Label(costItemFrame, text='Item Name: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblCostItem = Label(costItemFrame, text='Item Name: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                               bg='#F3E5F5')
         lblCostItem.grid(row=1, column=0, padx=10, pady=5, sticky='e')
         # -------<< Cost Item Entry >> :
@@ -66,7 +66,7 @@ class costItems:
 
         # region CostParentItem
         # -------<< Cost Parent Item Label >> :
-        lblParentItem = Label(costItemFrame, text='Parent: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblParentItem = Label(costItemFrame, text='Parent: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                               bg='#F3E5F5')
         lblParentItem.grid(row=2, column=0, padx=10, pady=5, sticky='e')
         # -------<< Cost Parent Item Entry >> :

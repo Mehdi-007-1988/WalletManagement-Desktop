@@ -53,7 +53,7 @@ class walletAmount:
 
         # region WalletItem
         # -------<< Wallet Item Label >> :
-        lblWalletItem = Label(walletAmountFrame, text='Wallet Name: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblWalletItem = Label(walletAmountFrame, text='Wallet Name: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                               bg='#F3E5F5')
         lblWalletItem.grid(row=2, column=0, padx=10, pady=5, sticky='e')
         # -------<< Wallet Item Entry >> :
@@ -65,7 +65,7 @@ class walletAmount:
 
         # region Amount
         # -------<< Amount Label >> :
-        lblWalletAmount = Label(walletAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblWalletAmount = Label(walletAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                                 bg='#F3E5F5')
         lblWalletAmount.grid(row=3, column=0, padx=10, pady=5, sticky='e')
         # -------<< Amount Entry >> :

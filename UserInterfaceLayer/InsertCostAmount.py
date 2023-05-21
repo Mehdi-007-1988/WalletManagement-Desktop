@@ -53,7 +53,7 @@ class costAmount:
 
         # region CostItem
         # -------<< Cost Item Label >> :
-        lblCostItem = Label(costAmountFrame, text='Cost Name: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblCostItem = Label(costAmountFrame, text='Cost Name: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                               bg='#F3E5F5')
         lblCostItem.grid(row=2, column=0, padx=10, pady=5, sticky='e')
         # -------<< Cost Item Entry >> :
@@ -65,7 +65,7 @@ class costAmount:
 
         # region Amount
         # -------<< Amount Label >> :
-        lblCostAmount = Label(costAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 12, 'bold'), bg='#F3E5F5')
+        lblCostAmount = Label(costAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 10, 'bold'), bg='#F3E5F5')
         lblCostAmount.grid(row=3, column=0, padx=10, pady=5, sticky='e')
         # -------<< Amount Entry >> :
         amountValue = StringVar()

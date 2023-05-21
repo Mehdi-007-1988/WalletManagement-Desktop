@@ -53,7 +53,7 @@ class incomeAmount:
 
         # region IncomeItem
         # -------<< Income Item Label >> :
-        lblIncomeItem = Label(incomeAmountFrame, text='Income Name: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblIncomeItem = Label(incomeAmountFrame, text='Income Name: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                               bg='#F3E5F5')
         lblIncomeItem.grid(row=2, column=0, padx=10, pady=5, sticky='e')
         # -------<< Income Item Entry >> :
@@ -65,7 +65,7 @@ class incomeAmount:
 
         # region Amount
         # -------<< Amount Label >> :
-        lblIncomeAmount = Label(incomeAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 12, 'bold'),
+        lblIncomeAmount = Label(incomeAmountFrame, text='Amount: ', fg='Indigo', font=('Calibri', 10, 'bold'),
                                 bg='#F3E5F5')
         lblIncomeAmount.grid(row=3, column=0, padx=10, pady=5, sticky='e')
         # -------<< Amount Entry >> :
